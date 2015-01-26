@@ -1,0 +1,52 @@
+<template name="layout">
+<head>
+  <title>Studin</title>
+</head>
+<body>
+    {{> yield}}
+</body>
+</template>
+
+<template name="first-page">
+<div id="header">
+  <div class="contain">
+    <nav id="nav-main">
+        <ul>
+            <li><div class="sec-button"><a href="">Entreprise</a></div></li>
+            <li><div class="sec-button"><a href="">Pôle Carrière</a></div></li>
+            <li><div class="sec-button"><a href="">Contact</a></div></li>
+            <li><div class="sec-button"><a href="">Se Connecter</a></div></li>
+            <li><div class="main-button"><a href="">S'inscrire</a></div></li>
+        </ul>
+    </nav>
+    <div id="nav-trigger">
+        <span>Menu</span>
+    </div>
+    <nav id="nav-mobile"></nav>
+  <div class="logo">
+    <a href="http://www.studin.fr"><img src="Images/Logooff1.png" alt="local"/></a>
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-xs-push-4 col-sm-push-4 col-md-push-4 first-score">
+        <img id="score" src="Images/blue-score.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-10 col-sm-4 col-md-8 col-xs-push-1 col-sm-push-4 col-md-push-2">
+        <h1>Première plateforme intégrée aux intranets, réunissant étudiants et entreprises.</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-xs-push-4 col-sm-push-4 col-md-push-4 last-score">
+        <img id="score" src="Images/blue-score.png">
+      </div>
+    </div>
+  </div>
+</div>
+{{> corps}}
+{{> footer}}
+
+</template>
