@@ -8,7 +8,7 @@ a {
 h4 {
     text-transform: uppercase;
     font-family: 'Lato-Light';
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .row {
@@ -383,7 +383,7 @@ nav#nav-mobile a:hover {
     font-size: 50px; 
     line-height: 30px;
     position: relative;
-    top: 0px;
+    top: 20px;
     padding-top: 10px;
 }
 
@@ -393,6 +393,14 @@ nav#nav-mobile a:hover {
     text-transform: uppercase;
     line-height: 40px;
     height: 50px;
+}
+
+.head-contain h3 {
+    color: #646464;
+    font-family: 'Lato-Light';
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 60px;
 }
 
 .head-contain .row {
@@ -469,8 +477,8 @@ nav#nav-mobile a:hover {
 }
 
 .body-contain .object img {
-    width: 600px;
-    height: 538px;
+    width: 500px;
+    height: 438px;
 }
 
 .body-contain .object {
@@ -551,10 +559,15 @@ nav#nav-mobile a:hover {
     height: 350px;
 }
 
+.show-text3 h1 {
+    position: relative;
+    right: 50px;
+}
+
 .body-contain3 h4 {
     text-transform: uppercase;
     font-family: 'Lato-Light';
-    font-size: 38px;
+    font-size: 35px;
 }
 
 .body-contain3 .object2 img {
@@ -565,6 +578,40 @@ nav#nav-mobile a:hover {
 .body-contain3 .object2 {
     position: relative;
     top: 150px;
+}
+
+.textt3 {
+    position: relative;
+    top: 40px;
+    right: 15px;
+}
+
+.mdg {
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    right: 15px;
+
+}
+
+.mdy {
+    position: relative;
+    top: 55px;
+}
+
+.textf3 {
+    height: 850px;
+}
+
+.object3 img {
+    position: relative;
+    top: 100px;
+    right: 80px;
+}
+
+.texts3 {
+    position: relative;
+    left: 150px;
 }
 
 /*----Body-contain4----*/
