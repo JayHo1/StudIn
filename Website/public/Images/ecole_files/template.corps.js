@@ -1,0 +1,8 @@
+(function(){
+Template.__checkName("corps");
+Template["corps"] = new Template("Template.corps", (function() {
+  var view = this;
+  return HTML.Raw('<div id="body-corps">\n		<div class="head-contain">\n				<div class="row">\n					<div class="col-sm-4 col-md-2 col-lg-2 col-sm-push-1 col-md-push-2 col-lg-push-2"><h1>16452<h3>.</h3> <h2>Offres</h2></h1></div>\n					<div class="col-sm-4 col-md-2 col-lg-2 col-sm-push-3 col-md-push-3 col-lg-push-3"><h1>349<h3>.</h3> <h2>Entreprise</h2></h1></div>\n					<div class="col-sm-6 col-md-2 col-lg-2 col-sm-push-3 col-md-push-4 col-lg-push-4"><h1>12394<h3>.</h3> <h2>Étudiants</h2></h1></div>\n				</div>\n		</div>\n		<div class="body-contain">\n			<div class="bcontain">\n				<div class="row">\n					<div class="col-lg-6 col-lg-push-3 show-text">\n						<h1>Présentation</h1>\n						<img src="Images/black-score.png">\n					</div>\n				</div>\n				<div class="row">\n					<div class="col-md-5 col-md-push-1 text">\n						<p>Studin est la plateforme qui réunit étudiants, jeunes diplômés et entreprises. Grâce à l’intégration de la plateforme de recherche de stages et d’emplois dans les intranet des écoles.</p> \n					</div>\n					<div class="col-md-4 col-md-push-2 text">\n						<h4> "Studin propose une nouvelle manière de réunir offres et demandes de stages en proposant aux élèves et aux recruteurs uniquement les annonces et profils en adequation avec leurs attentes." </h4>\n						<p>Nicolas Sadirac,\n						Directeur d\'école 42, 47 ans</p>\n					</div>\n					<aside class="object col-md-5 col-md-push-1">\n						<img src="Images/object.png">\n					</aside>\n				</div>\n			</div>\n		</div>\n	</div>');
+}));
+
+})();

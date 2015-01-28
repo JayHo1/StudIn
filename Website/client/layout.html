@@ -9,7 +9,8 @@
 
 <template name="first-page">
 <div id="header">
-  <div class="contain">
+  {{> navbar}}
+  <!-- <div class="contain">
     <nav id="nav-main">
         <ul>
             <li><div class="sec-button"><a href="entreprise">Entreprise</a></div></li>
@@ -26,9 +27,9 @@
   <div class="logo">
     <a href="http://www.studin.fr"><img src="Images/Logooff1.png" alt="local"/></a>
   </div>
-  </div>
+  </div> -->
 
-  <div class="container">
+  <div class="container contain-index">
     <div class="row">
       <div class="col-xs-4 col-sm-4 col-md-4 col-xs-push-4 col-sm-push-4 col-md-push-4 first-score">
         <img id="score" src="Images/blue-score.png">
@@ -36,12 +37,23 @@
     </div>
     <div class="row">
       <div class="col-xs-10 col-sm-4 col-md-8 col-xs-push-1 col-sm-push-4 col-md-push-2">
-        <h1>Première plateforme intégrée aux intranets, réunissant étudiants et entreprises.</h1>
+        <h1>Première plateforme réunissant étudiants et entreprises.</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-4 col-sm-4 col-md-4 col-xs-push-4 col-sm-push-4 col-md-push-4 last-score">
         <img id="score" src="Images/blue-score.png">
+      </div>
+    </div>
+    <div class="row adp">
+      <div class="col-md-3 col-md-push-1 ad">
+        <a href="">étudiants</a>
+      </div>
+      <div class="col-md-3 col-md-push-2 ad">
+        <a href="">entreprises</a>
+      </div>
+      <div class="col-md-3 col-md-push-3 ad">
+        <a href="">écoles</a>
       </div>
     </div>
   </div>
