@@ -443,6 +443,7 @@ h3 {
 
 .picto2-text {
     margin-top: 20px;
+    width: 440px;
 }
 
 .picto-text2 {
@@ -450,6 +451,9 @@ h3 {
     left: 210px;
 }
 
+.picto2-text2 {
+    width: 440px;
+}
 /*----Body-contain3----*/
 
 .container3 {
@@ -496,6 +500,7 @@ h3 {
 .textt4 {
     position: relative;
     left: 320px;
+    width: 450px;
 }
 
 .picto3 img {
