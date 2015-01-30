@@ -138,10 +138,12 @@ h3 {
 }
 
 .adp {
-    position: relative;
-    top: 55px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding-right: 80px;
+    position: relative;
+    top: 55px; 
 }
 
 .ad a {
@@ -172,6 +174,10 @@ h3 {
 	height: 50px;
 }
 
+.media2 {
+    width: 600px;
+    margin: auto;
+}
 
 /*----Header-maintext1-----*/
 
@@ -190,19 +196,22 @@ h3 {
     line-height: 62px;
 }
 
-.media2 {
-    position: relative;
-    left: 420px;
-}
-
 .poster {
     text-align: center;
-    position: relative;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid;
     border-radius: 7px;
     border-color: rgba(66, 213, 249, 0.1);
     text-transform: uppercase;
     background-color: rgba(66, 213, 249, 0.8);
+    position: relative;
+    top: 30px;
+}
+
+.pot {
+    position: relative;
     top: 60px;
 }
 
@@ -224,7 +233,13 @@ h3 {
     display: block;
     text-align: center;
     position: relative;
-    top: 140px;
+    top: 80px;
+}
+
+.media3 {
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*-----Header-Nav------*/
@@ -351,10 +366,6 @@ h3 {
     top: 30px;
 }
 
-.textt {
-    position: relative;
-    left: 300px;
-}
 
 .bcontain .row .text {
     margin-top: 50px;
@@ -362,8 +373,8 @@ h3 {
 
 .picto1 img {
     position: relative;
-    bottom: 230px;
-    left: 70px;
+    bottom: 220px;
+    left: 160px;
 }
 
 .mdp p {
@@ -373,9 +384,14 @@ h3 {
     top: 20px;
 }
 
-.col-lg-4 h2 {
-	text-transform: uppercase;
-	font-family: 'Lato-Light';
+.textf {
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textt {
+    width: 440px;
 }
 
 .fpoint img{
@@ -442,11 +458,6 @@ h3 {
     height: 350px;
 }
 
-.show-text3 h1 {
-    position: relative;
-    right: 50px;
-}
-
 .body-contain3 .object2 img {
     width: 550px;
     height: 210px;
@@ -462,17 +473,22 @@ h3 {
 }
 
 .picto4 img {
-    width: 500px;
-    height: 208px;
+    width: 600px;
+    height: 268px;
     position: relative;
-    top: 50px;
-    left: 90px;
+    top: 40px;
+    left: 60px;
 }
 
 .picto-text4 {
     height: 390px;
     position: relative;
     left: 170px;
+}
+
+.picto-text44 {
+    position: relative;
+    bottom: 46px;
 }
 
 /*----Body-contain3----*/
@@ -527,7 +543,7 @@ input {
     height: 35px;
     background-color: rgba(0,0,0,0.7);
     color: rgba(255,255,255,0.7);
-    border-color: rgba(0,0,0,0.7);
+    border-color: rgba(0,0,0,0.0);
 }
 
 textarea {
@@ -555,13 +571,13 @@ textarea {
 
 .body-footer a {
     font-family: 'Lato-Light';
-    color: #646464;
+    color: #525252;
     font-size: 16px;
 }
 
 .body-footer p {
     font-family: 'Lato-Light';
-    color: #646464;
+    color: #525252;
     font-size: 16px;
 }
 
@@ -665,17 +681,133 @@ input, button, select, textarea {
     font-weight: normal;
 }
 
-@media (max-width: 767px) {
-    .media1 h1 {
+
+@media (min-width: 751px) and (max-width: 959px) {
+
+    .container1 h1 {
         font-size: 30px;
     }
 
-    .ad a {
-        font-size: 20px;
+    .media2 {
+        width: 450px;
+        margin: auto;
     }
 
-    .ads {
-        position: relative;
-        left: 130px;
+    .adp {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 55px; 
     }
+
+    .ad a {
+        font-size: 24px;
+    }
+
+    .ad {
+        margin-top: 20px;
+    }
+
+    .poster a {
+        font-size: 24px;
+    }
+
+    .poster {
+    text-align: center;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: rgba(66, 213, 249, 0.1);
+    text-transform: uppercase;
+    background-color: rgba(66, 213, 249, 0.8);
+    position: relative;
+    top: 30px;
+    }   
+
+    .pot {
+    position: relative;
+    top: 70px;
+    }
+
+    .head-contain h1 {
+        font-size: 40px;
+    }
+
+    .head-contain h2 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 750px) {
+
+    .container1 h1 {
+        font-size: 22px;
+    }
+
+    .media2 {
+        width: 360px;
+        margin: auto;
+    }
+
+
+    #score {
+        display: none;
+    }
+
+    .adp {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 55px; 
+    }
+
+    .ad a {
+        font-size: 18px;
+    }
+
+    .ad {
+        margin-top: 20px;
+    }
+
+    .poster a {
+        font-size: 25px;
+    }
+
+        .poster {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: rgba(66, 213, 249, 0.1);
+    text-transform: uppercase;
+    background-color: rgba(66, 213, 249, 0.8);
+    position: relative;
+    top: 80px;
+}
+
+    .pot {
+        position: relative;
+        top: 120px;
+    }
+
+     .head-contain h1 {
+        font-size: 30px;
+    }
+
+    .head-contain h2 {
+        font-size: 18px;
+    }
+
+    .t {
+        display: none;
+    }
+
 }

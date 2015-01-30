@@ -22,17 +22,6 @@ if (Meteor.isServer) {
   });
 }
 
-if (Meteor.isClient) {
-	$(document).ready(function(){
-    $("#nav-mobile").html($("#nav-main").html());
-    $("#nav-trigger span").click(function(){
-        if ($("nav#nav-mobile ul").hasClass("expanded")) {
-            $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
-            $(this).removeClass("open");
-        } else {
-            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
-            $(this).addClass("open");
-        }
-    });
-});
-}
+// Template.Home.rendered = function () {
+//     $('h1').fitText(0.59); // you can play with this number or omit it all together to get your size just right
+// };

@@ -7,7 +7,7 @@ Router.route('/entreprise', function(){
 });
 
 Router.route('/', function(){
-	this.render('first-page');
+	this.render('Home');
 });
 
 Router.route('/ecole', function(){
